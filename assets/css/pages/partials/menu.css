@@ -1,2 +1,77 @@
-.menu {
+nav {
+  width: 100vw;
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 35%,
+    rgba(0, 0, 0, 0.58) 100%
+  );
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+}
+nav img {
+  width: 100%;
+  max-width: 100px;
+}
+.opcoes {
+  background-color: transparent;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0 0 0 17rem;
+}
+.opcoes a {
+  text-decoration: none;
+  color: var(--cor-branco);
+  font-size: 0.7rem;
+  margin: 0 5px;
+  font-family: var(--julius);
+}
+.opcoes a.btnFaleConosco {
+  background-color: var(--cor-dourado);
+  color: var(--cor-branco);
+  height: 3rem;
+  width: 100%;
+  max-width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+}
+.galeria-projetos {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-top: 5rem;
+}
+.galeria-projetos img {
+  width: 232px;
+  height: 186px;
+}
+.ver-mais {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 0 0 0;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.ver-mais p {
+  font-family: var(--julius);
+  color: var(--cor-branco);
+}
+.ver-mais img {
+  width: 23px;
+  height: 23px;
+}
+
+@media screen and (max-width: 1000px) {
+  .opcoes a {
+    display: none;
+  }
 }

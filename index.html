@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andrade & Borges</title>
+    <link rel="stylesheet" href="./assets/css/pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Jura:wght@300;700&family=Karla:wght@800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
-      <img src="" alt="" />
+      <img src="./files/logo_dark.jpg" />
       <div class="opcoes">
         <a href="#home">HOME</a>
         <a href="#sobreNos">QUEM SOMOS</a>
@@ -18,21 +25,164 @@
     </nav>
 
     <section id="home" class="home">
-      <img src="" />
+      <img src="./files/bg_home.png" />
       <div class="content">
-        <h4>Seja Bem-Vindo</h4>
-        <h1></h1>
-        <p></p>
+        <h4>Seja Bem-Vindo a Andrade & Borges!</h4>
+        <h1>
+          Onde cada casa que construímos conta uma história sobre perseverança,
+          dedicação e tradição.
+        </h1>
+        <p>
+          Nossa dedicação à tradição e inovação nos tornou líderes na indústria
+          de construção de casas de madeira e estruturas afins. Junte-se a nós
+          enquanto continuamos a escrever capítulos memoráveis em cada projeto,
+          honrando o passado, vivendo no presente e construindo o futuro.
+        </p>
         <div class="acoes-home">
-            <a href="#contato">SOLICITE UM ORÇAMENTO</a>
-            <a href="#sobreNos">SAIBA MAIS</a>
+          <a class="orcamento" href="#contato">SOLICITE UM ORÇAMENTO</a>
+          <a class="saibaMais" href="#sobreNos">SAIBA MAIS</a>
         </div>
       </div>
     </section>
 
-    <section id="sobreNos" class="sobreNos"></section>
-    <section id="projetos" class="projetos"></section>
-    <section id="servicos" class="servicos"></section>
-    <section id="" class=""></section>
+    <section id="sobreNos" class="sobreNos">
+      <div class="titulo-sobre">
+        <h2>Quem Somos Nós?</h2>
+      </div>
+      <div class="content-sobre">
+        <div class="descricao">
+          <p>
+            Nossa jornada começou em 1967, quando o Sr. Cezevredo de Andrade
+            fundou a Casas Andrade na pitoresca cidade de Palmital-PR.
+            Originário de Portugal, ele chegou com seu pai e, com muito esforço,
+            conquistaram uma pequena fazenda, dando início a uma saga que
+            moldaria nosso legado.
+          </p>
+          <p>
+            Inicialmente especializada na construção de casas de madeira, a
+            empresa viu uma evolução marcante em abril de 2022, quando a
+            denominação foi alterada para Casas Andrade & Borges. A mudança
+            refletiu não apenas uma fusão de nomes, mas a fusão de gerações e
+            valores que construímos ao longo dos anos.
+          </p>
+        </div>
+        <img src="./files/logo_light.jpg" />
+      </div>
+    </section>
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="431" height="132" viewBox="0 0 431 132" fill="none">
+      <g filter="url(#filter0_d_32_52)">
+        <path d="M218.975 97C306.39 97 325.371 3 404.149 3C482.927 3 -59.1795 3 28.6618 3C116.503 3 131.561 97 218.975 97Z" fill="#FFFDF7"/>
+      </g>
+      <defs>
+        <filter id="filter0_d_32_52" x="0" y="0" width="431" height="132" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="16"/>
+          <feGaussianBlur stdDeviation="9.5"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.43 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_32_52"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_32_52" result="shape"/>
+        </filter>
+      </defs>
+    </svg>
+     -->
+    <section id="projetos" class="projetos">
+      <div class="content-projetos">
+        <div class="titulo-projeto">
+          <h2>Projetos Realizados</h2>
+          <img src="./files/line2.png" />
+        </div>
+
+        <div class="galeria-projetos">
+          <img src="./files/pergolado-modernos.jpg" />
+          <img src="./files/pergolado-modernos.jpg" />
+          <img src="./files/pergolado-modernos.jpg" />
+          <img src="./files/pergolado-modernos.jpg" />
+          <img src="./files/pergolado-modernos.jpg" />
+        </div>
+
+        <div class="ver-mais">
+          <p>Ver mais Projetos</p>
+          <img src="./files/seta-branca.png" />
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="servicos">
+      <div class="content-servicos">
+        <div class="titulo-servicos">
+          <h2>Nossos Serviços</h2>
+          <img src="./files/line_title.png" />
+        </div>
+        <div class="grid-servicos">
+          <div class="card-servicos">
+            <img src="./files/construcao-de-casa.png" />
+            <h3>Montagem</h3>
+            <p>
+              Fazemos a montagem de casas Pré-Fabricadas na qual recebemos os
+              materiais já cortados, e realizamos toda a instalação.
+            </p>
+          </div>
+          <div class="card-servicos">
+            <img src="./files/construcao-de-casa.png" />
+            <h3>Manutenção</h3>
+            <p>
+              Fazemos a Manutenção de casas de Madeira, Chalés, Decks,
+              Pergolados, de acordo com a necessidade do cliente. Dando vida
+              util e maior durabilidade ao material.
+            </p>
+          </div>
+          <div class="card-servicos">
+            <img src="./files/construcao-de-casa.png" />
+            <h3>Construção</h3>
+            <p>
+              Nós realizamos toda a construção do seu projeto, tendo em vista os
+              nichos que atendemos.
+            </p>
+          </div>
+        </div>
+        <div class="acoes-servicos">
+          <a href="">Solicite um Orçamento</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <div class="content-contato">
+        <div class="titulo-contato">
+          <h2>Fale Conosco</h2>
+          <img src="./files/line_title.png">
+        </div>
+        <div class="formulario-contato">
+          <form action="#">
+            <div class="esquerda">
+              <div class="nome">
+                <label for="#">Nome</label>
+                <input type="text" placeholder="Digite seu Nome">
+              </div>
+              <div class="telefone">
+                <label for="#">Telefone</label>
+                <input type="tel" placeholder="(19) 99999-9999">
+              </div>
+              <div class="assunto">
+                <label for="#">Assunto</label>
+                <input type="text" placeholder="Selecione">
+              </div>
+            </div>
+            <div class="direita">
+              <div class="mensagem">
+                <label for="#">Mensagem</label>
+                <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Digiste sua mensagem..."></textarea>
+              </div>
+              <button id="enviarMensagem">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
   </body>
 </html>

@@ -1,0 +1,84 @@
+.servicos {
+  background-color: var(--cor-branco);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-servicos {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  height: 25rem;
+  margin: 5rem 0 0 0;
+  justify-content: center;
+}
+.content-servicos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+  padding: 10rem;
+}
+.titulo-servicos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10rem 0 0 0;
+}
+.titulo-servicos h2 {
+  font-family: var(--julius);
+  font-size: 1.4rem;
+  color: var(--cor-dourado);
+}
+.titulo-servicos img {
+  width: 80px;
+  height: 10px;
+}
+.card-servicos {
+  width: 320px;
+  height: 333px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 15px;
+  box-shadow: 5px 4px 18px -7px #000000;
+}
+.card-servicos img {
+  width: 283px;
+  height: 185px;
+}
+.card-servicos h3 {
+  color: var(--cor-dourado);
+  font-size: 1.2rem;
+  font-family: var(--julius);
+}
+.card-servicos p {
+  color: var(--cor-preto);
+  font-size: 0.8rem;
+  font-family: var(--jura);
+}
+.acoes-servicos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.acoes-servicos a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-dourado);
+  color: var(--cor-branco);
+  font-family: var(--julius);
+  width: 20rem;
+  height: 3rem;
+  border-radius: 14px;
+  box-shadow: 5px 4px 18px -7px #000000;
+}

@@ -1,2 +1,7 @@
 @import '../global/global.css';
 @import './partials/menu.css';
+@import './partials/section-home.css';
+@import './partials/section-sobre.css';
+@import './partials/section-projeto.css';
+@import './partials/section-servicos.css';
+@import './partials/section-contato.css';

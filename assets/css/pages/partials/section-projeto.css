@@ -1,0 +1,23 @@
+.projetos {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-dourado);
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.content-projetos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.titulo-projeto {
+    text-align: center;
+}
+.titulo-projeto h2 {
+    color: var(--cor-branco);
+    font-family: var(--julius);
+    margin: 1rem 0;
+}

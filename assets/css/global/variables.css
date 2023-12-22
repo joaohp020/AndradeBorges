@@ -1,9 +1,11 @@
 :root {
-    --cor-branco: #fff;
+    --cor-branco: #FFFDF7;
     --cor-cinza: #D9D9D9;
     --cor-preto: #000;
     --cor-amarelo: #FFDE59;
     --cor-dourado: #7C5000;
 
-    
+    --jura: 'Jura', sans-serif;
+    --julius: 'Julius Sans One', sans-serif;
+    --bold: 'Karla', sans-serif;
 }

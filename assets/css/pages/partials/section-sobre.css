@@ -1,0 +1,38 @@
+.sobreNos {
+  height: 120vh;
+  background-color: var(--cor-branco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+}
+.titulo-sobre {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin: 0rem 0 0 0;
+}
+.titulo-sobre h2 {
+  font-family: var(--julius);
+  color: var(--cor-dourado);
+}
+.content-sobre {
+  width: 100%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-sobre .descricao p {
+  width: 100%;
+  max-width: 28rem;
+  margin: 1rem 0;
+  font-family: var(--julius);
+  font-size: 0.8rem;
+}
+.content-sobre img {
+  width: 301px;
+  height: 431px;
+  box-shadow: 6px 10px 14px 0px #7c5000;
+}
