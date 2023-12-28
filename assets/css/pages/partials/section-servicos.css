@@ -26,6 +26,7 @@
   display: flex;
   flex-direction: column;
   margin: 10rem 0 0 0;
+  padding: 0 6rem;
 }
 .titulo-servicos h2 {
   font-family: var(--julius);
@@ -79,6 +80,54 @@
   font-family: var(--julius);
   width: 20rem;
   height: 3rem;
-  border-radius: 14px;
+  border-radius: 10px;
   box-shadow: 5px 4px 18px -7px #000000;
+}
+
+@media screen and (max-width: 1000px) {
+  .servicos {
+    height: 140vh;
+  }
+  .grid-servicos {
+    flex-direction: column;
+    height: auto;
+    margin: 0 0 2rem 0;
+  }
+  .content-servicos {
+    flex-direction: column;
+    justify-content: start;
+    padding: 0 1rem;
+  }
+  .titulo-servicos {
+    flex-direction: column;
+    margin: 8rem 0 2rem 0;
+    padding: 0 1rem;
+  }
+  .titulo-servicos h2 {
+    font-family: var(--julius);
+    font-size: 1.4rem;
+    color: var(--cor-dourado);
+  }
+  .titulo-servicos img {
+    width: 80px;
+    height: 10px;
+  }
+  .card-servicos {
+    width: 90vw;
+    height: 333px;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 15px;
+  }
+  .card-servicos img {
+    width: 283px;
+    height: 185px;
+  }
+  .card-servicos h3 {
+    font-size: 1.2rem;
+  }
+  .acoes-servicos a {
+    width: 20rem;
+    height: 3rem;
+  }
 }

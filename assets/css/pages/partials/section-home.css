@@ -1,65 +1,105 @@
 .home {
-height: 90vh;
+  height: 90vh;
 }
 .home img {
-    width: 100%;
-    max-width: 1540px;
-    height: 630px;
-    object-fit: cover;
-    display: flex;
+  width: 100%;
+  max-width: 1540px;
+  height: 630px;
+  object-fit: cover;
+  display: flex;
 }
 .home .content {
-    display: flex;
-    z-index: 2;
-    position: absolute;
-    flex-direction: column;
-    top: calc(28%);
-    left: calc(10% + 5px);
-    width: 100%;
-    max-width: 40rem;
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  flex-direction: column;
+  top: calc(28%);
+  left: calc(10% + 5px);
+  width: 100%;
+  max-width: 40rem;
 }
 .content h4 {
-    font-family: var(--julius);
-    color: var(--cor-branco);
-    font-size: 1rem;
-    opacity: 0.8;
+  font-family: var(--julius);
+  color: var(--cor-branco);
+  font-size: 1rem;
+  opacity: 0.8;
 }
 .content h1 {
-    font-family: var(--bold);
-    color: var(--cor-cinza);
-    margin: 1.5rem 0;
-    font-size: 1.9rem;
+  font-family: var(--bold);
+  color: var(--cor-cinza);
+  margin: 1.5rem 0;
+  font-size: 1.9rem;
 }
 .content p {
-    font-family: var(--julius);
-    color: var(--cor-branco);
-    opacity: 0.8;
+  font-family: var(--julius);
+  color: var(--cor-branco);
+  opacity: 0.8;
 }
 .acoes-home {
-    width: 100%;
-    display: flex;
-    gap: 1rem;
-    margin: 2rem 0 0 0;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0 0 0;
 }
 .acoes-home a {
-    font-family: var(--julius);
-    font-size: 0.8rem;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
+  font-family: var(--julius);
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 .orcamento {
-    background-color: var(--cor-dourado);
-    color: var(--cor-branco);
-    height: 3rem;
-    border-radius: 14px;
+  background-color: var(--cor-dourado);
+  color: var(--cor-branco);
+  height: 3rem;
+  border-radius: 10px;
 }
 .saibaMais {
-    background-color: transparent;
-    color: var(--cor-dourado);
+  background-color: transparent;
+  color: var(--cor-dourado);
+  height: 3rem;
+  border: 2px solid var(--cor-dourado);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    height: 60vh;
+  }
+  .home img {
+    max-width: 1540px;
+    height: 630px;
+  }
+  .home .content {
+    flex-direction: column;
+    top: calc(23% - 10px);
+    left: calc(5% + 5px);
+    max-width: 23rem;
+  }
+  .content h4 {
+    font-size: 0.8rem;
+  }
+  .content h1 {
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+  }
+  .content p {
+    font-size: 0.8rem;
+  }
+  .acoes-home {
+    gap: 1rem;
+    margin: 2rem 0 0 0;
+  }
+  .acoes-home a {
+    font-size: 0.7rem;
+    width: 50%;
+  }
+  .orcamento {
     height: 3rem;
-    border: 2px solid var(--cor-dourado);
-    border-radius: 14px;
+  }
+  .saibaMais {
+    height: 3rem;
+  }
 }

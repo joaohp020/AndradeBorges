@@ -41,7 +41,7 @@ nav img {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 14px;
+  border-radius: 10px;
 }
 .galeria-projetos {
   display: flex;
@@ -71,6 +71,9 @@ nav img {
 }
 
 @media screen and (max-width: 1000px) {
+  .opcoes {
+    margin: 0 0 0 3rem;
+  }
   .opcoes a {
     display: none;
   }

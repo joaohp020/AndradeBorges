@@ -12,6 +12,7 @@
   justify-content: start;
   width: 100%;
   margin: 0rem 0 0 0;
+  padding: 0 6rem;
 }
 .titulo-sobre h2 {
   font-family: var(--julius);
@@ -23,6 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 6rem;
 }
 .content-sobre .descricao p {
   width: 100%;
@@ -35,4 +37,38 @@
   width: 301px;
   height: 431px;
   box-shadow: 6px 10px 14px 0px #7c5000;
+}
+
+@media screen and (max-width: 1000px) {
+  .sobreNos {
+    height: 120vh;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .titulo-sobre {
+    justify-content: start;
+    margin: 5rem 0 0 0;
+    padding: 0 2rem;
+  }
+  .titulo-sobre h2 {
+  }
+  .content-sobre {
+    margin: 3rem 0 0 0;
+    justify-content: space-between;
+    padding: 0 6rem;
+    flex-direction: column-reverse;
+  }
+  .descricao {
+    width: 20rem;
+    margin: 4rem 0 0 0;
+  }
+  .content-sobre .descricao p {
+    max-width: 28rem;
+    margin: 1rem 0;
+    font-size: 0.8rem;
+  }
+  .content-sobre img {
+    width: 300px;
+    height: 305px;
+  }
 }
