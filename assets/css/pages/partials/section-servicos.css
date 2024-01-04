@@ -54,6 +54,10 @@
   width: 283px;
   height: 185px;
 }
+.card-servicos img.img-pergolado {
+  display: flex;
+  object-fit: cover;
+}
 .card-servicos h3 {
   color: var(--cor-dourado);
   font-size: 1.2rem;
